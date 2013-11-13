@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Matriz::VERSION
   spec.authors       = ["Manuel Perez"]
   spec.email         = ["alu0100697698@ull.edu.es"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{Gema para la matriz}
+  spec.summary       = %q{Código mara manejar distintas funciones para las matrizes}
+  spec.homepage      = "https://github.com/alu0100697698/prct09.git"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
@@ -20,4 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "rspec"
 end
